@@ -1,0 +1,64 @@
+HTTP/1.1 308 Permanent Redirect
+Connection: keep-alive
+Content-Length: 324
+content-type: text/html; charset=utf-8
+location: https://api.pinterest.com/url_shortener/2aIaLa04g/redirect/
+x-envoy-upstream-service-time: 5
+x-pinterest-direct: true
+cache-control: no-cache, no-store, must-revalidate
+set-cookie: _ir=0; Max-Age=1800; HttpOnly; Path=/; Secure
+x-pinterest-rid: 8933817536166605
+x-pinterest-rid-128bit: 6b8c90cf56a49d2e7bfb4bb73b5db346
+Accept-Ranges: bytes
+Date: Sat, 18 Jul 2026 23:07:06 GMT
+Strict-Transport-Security: max-age=15780000; includeSubDomains
+
+HTTP/1.1 302 Found
+Connection: keep-alive
+Content-Length: 486
+content-type: text/html; charset=utf-8
+location: https://www.pinterest.com/pin/4604367805540988416/sent/?invite_code=fc6cba84f3d24dbba9c7792b07ed7fd1&sender=943152484371967121&sfo=1
+x-envoy-upstream-service-time: 29
+x-pinterest-direct: true
+cache-control: no-cache, no-store, must-revalidate
+age: 0
+set-cookie: _ir=0; Max-Age=1800; HttpOnly; Path=/; Secure
+x-pinterest-rid: 1655000803462937
+x-pinterest-rid-128bit: 794ec0b02fe5a16e16f7be765164f9ce
+Date: Sat, 18 Jul 2026 23:07:07 GMT
+X-CDN: fastly
+alt-svc: h3=":443";ma=604800
+Pinterest-Generated-By: coreapp-ngapi-prod-0a0100a6
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-ua-compatible: IE=edge
+reporting-endpoints: coop-endpoint="https://www.pinterest.com/_/_/coop_report/", coep-endpoint="https://www.pinterest.com/_/_/coep_report/"
+cross-origin-opener-policy-report-only: same-origin; report-to="coop-endpoint"
+set-cookie: csrftoken=232fffa36c99679672bbd2547151100a; path=/; expires=Sun, 18 Jul 2027 23:07:07 GMT; samesite=lax; secure
+set-cookie: _pinterest_sess=TWc9PSZmdmpTcnRZMmJmOWV2RnpsWG5URjVQd1U2bGtMcFhtNnJ0UU1wS0xUVE5mRzRWU3pTejFsZGEwWGFzSEl6ZE9yc05LcWg2aTVnTG5TQTdHRnVOMmVmT1BwVTVjbTBuTlBmcUhkWldmMXo3QT0mbzJ5eDVoSFprR2lhK3dGbHRndzN2SjErWnFZPQ==; path=/; expires=Tue, 13 Jul 2027 23:07:07 GMT; domain=.pinterest.com; samesite=none; secure; httponly
+set-cookie: _auth=0; path=/; expires=Tue, 13 Jul 2027 23:07:07 GMT; domain=.pinterest.com; secure; httponly
+p3p: CP="This is not a P3P policy. See https://www.pinterest.com/_/_/help/articles/pinterest-and-p3p for more info."
+content-security-policy: default-src 'self' blob: s.pinimg.com s1.pinimg.com s2.pinimg.com; font-src 'self' m.media-amazon.com *.amazon-adsystem.com s.pinimg.com s1.pinimg.com s2.pinimg.com data: fonts.googleapis.com fonts.gstatic.com use.typekit.net; style-src 'self' blob: 'unsafe-inline' data: *.pinimg.com *.pinterest.com accounts.google.com fonts.googleapis.com *.adyen.com *.adyenpayments.com; img-src blob: data: *; base-uri 'none'; connect-src 'self' blob: m.media-amazon.com *.amazon-adsystem.com htlb.casalemedia.com *.2mdn.net *.ada.support *.pinimg.com *.pinterest.com accounts.google.com *.adyen.com pinterest-salvador.s3.amazonaws.com *.adyenpayments.com *.facebook.com *.doubleclick.net *.adtrafficquality.google www.recaptcha.net https://pinterest-api.arkoselabs.com/ www.googleapis.com *.dropboxapi.com pinterest-aberdeen.s3.amazonaws.com pinterest-aberdeen.s3.us-east-1.amazonaws.com pinterest-anaheim.s3.amazonaws.com pinterest-anaheim.s3.us-east-1.amazonaws.com pinterest-hilo.s3.amazonaws.com pinterest-hilo.s3.us-east-1.amazonaws.com pinterest-sim-toontown.s3.amazonaws.com pinterest-sim-toontown.s3.us-east-1.amazonaws.com pinterest-lucca.s3.amazonaws.com pinterest-lucca.s3.us-east-1.amazonaws.com pinterest-media-upload.s3.amazonaws.com pinterest-media-upload.s3.us-east-1.amazonaws.com pinterest-media-upload.s3-accelerate.amazonaws.com pinterest-milwaukee.s3.amazonaws.com pinterest-milwaukee.s3.us-east-1.amazonaws.com pinterest-poughkeepsie.s3.amazonaws.com pinterest-poughkeepsie.s3.us-east-1.amazonaws.com pinterest-waterloo.s3.amazonaws.com pinterest-waterloo.s3.us-east-1.amazonaws.com pinterest-plymouth.s3.amazonaws.com pinterest-plymouth.s3.us-east-1.amazonaws.com pinterest-salvador.s3.us-east-1.amazonaws.com pinterest-yamagata.s3.amazonaws.com pinterest-yamagata.s3.us-east-1.amazonaws.com *.cedexis.com *.cedexis-radar.net *.tvpixel.com api.pinadmin.com *.live-video.net https://*.daily.co https://*.pluot.blue wss://*.wss.daily.co api.basistheory.com; form-action 'self' *.adyen.com *.klarna.com *.tink.com *.adyenpayments.com; frame-src 'self' *.ada.support *.pinimg.com *.pinterest.com *.adyen.com static-sandbox.dlocal.com static.dlocal.com *.google.com *.facebook.com *.doubleclick.net *.rubiconproject.com *.adtrafficquality.google *.safeframe.googlesyndication.com www.recaptcha.net https://iframe.arkoselabs.com/ https://pinterest-api.arkoselabs.com/ pinterest-hilo.s3.amazonaws.com pinterest-hilo.s3.us-east-1.amazonaws.com pinterest-sim-toontown.s3.amazonaws.com pinterest-sim-toontown.s3.us-east-1.amazonaws.com pinterest-milwaukee.s3.amazonaws.com pinterest-milwaukee.s3.us-east-1.amazonaws.com pinterest-waterloo.s3.amazonaws.com pinterest-waterloo.s3.us-east-1.amazonaws.com pinterest-tolu.s3.amazonaws.com *.pinterdev.com content.googleapis.com *.youtube.com *.youtube-nocookie.com *.ytimg.com player.vimeo.com calendly.com vine.co bid.g.doubleclick.net *.fls.doubleclick.net pinlogs.s3.amazonaws.com pinlogs.s3.us-east-1.amazonaws.com servedby.flashtalking.com pinterest-uk.admo.tv pinterest-uk-web.admo.tv fbrpc://call *.linkedin.com px.ads.linkedin.com api.basistheory.com js.basistheory.com 3ds.basistheory.com; media-src 'self' blob: m.media-amazon.com *.2mdn.net data: *.pinimg.com *.live-video.net; object-src 'self'; script-src 'nonce-27989c518d17f1257504ce7e27518070' 'strict-dynamic' 'self' blob: 'unsafe-inline' *.pinimg.com *.pinterest.com *.adyen.com js.dlocal.com js-sandbox.dlocal.com static-sandbox.dlocal.com static.dlocal.com *.adyenpayments.com 'report-sample' *.google.com connect.facebook.net *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.adtrafficquality.google *.googletagmanager.com radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.gstatic.cn/recaptcha/ www.recaptcha.net https://pinterest-api.arkoselabs.com/ 'wasm-unsafe-eval' js.basistheory.com 3ds.basistheory.com; worker-src 'self' blob: 'unsafe-inline'; report-uri /_/_/csp_report/?rid=1398137871753410; frame-ancestors 'self' , script-src 'self' blob: 'unsafe-inline' *.pinimg.com *.pinterest.com *.adyen.com js.dlocal.com js-sandbox.dlocal.com static-sandbox.dlocal.com static.dlocal.com *.adyenpayments.com 'report-sample' *.google.com connect.facebook.net *.google-analytics.com *.facebook.com *.googleadservices.com *.doubleclick.net *.adtrafficquality.google *.googletagmanager.com radar.cedexis.com *.cedexis-test.com www.gstatic.com/recaptcha/ www.gstatic.cn/recaptcha/ www.recaptcha.net https://pinterest-api.arkoselabs.com/ 'wasm-unsafe-eval' js.basistheory.com 3ds.basistheory.com; report-uri /_/_/csp_report/?rid=1398137871753410
+x-frame-options: SAMEORIGIN
+origin-trial: AvlUIFJouPpJAKljRGh7EnYm2Brnx/eu51h39Z7p11vbzNlw2YhkUhxvxZdkS709VlGGNw4Gcg/a9mAzHDrEcQ0AAAB5eyJvcmlnaW4iOiJodHRwczovL3BpbnRlcmVzdC5jb206NDQzIiwiZmVhdHVyZSI6IlNlbmRGdWxsVXNlckFnZW50QWZ0ZXJSZWR1Y3Rpb24iLCJleHBpcnkiOjE2ODQ4ODYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==
+accept-ch: Sec-CH-UA-Full,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-UA-Platform-Version
+content-type: text/html; charset=utf-8
+link: <https://i.pinimg.com>; rel=preconnect; crossorigin=anonymous, <https://s.pinimg.com>; rel=preconnect; crossorigin=anonymous, <https://v1.pinimg.com>; rel=preconnect; crossorigin=anonymous
+x-async-render: true
+x-envoy-upstream-service-time: 333
+referrer-policy: origin
+set-cookie: _routing_id="b326858f-44c3-4673-ae34-438d0863750d"; Max-Age=86400; Path=/; HttpOnly
+x-pinterest-rid: 1398137871753410
+x-pinterest-rid-128bit: ed71367256694382c207d5ddf8d3a073
+Date: Sat, 18 Jul 2026 23:07:07 GMT
+Vary: User-Agent, Accept-Encoding
+X-CDN: fastly
+alt-svc: h3=":443";ma=604800
+Pinterest-Generated-By: coreapp-webapp-prod-0a03ccc7
+Pinterest-Version: e86b6e0
+transfer-encoding: chunked
+
