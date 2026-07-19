@@ -1,6 +1,6 @@
 import { list, put } from "@vercel/blob";
 
-export type ServiceItem = { title: string; description: string; price: string };
+export type ServiceItem = { title: string; category: string; description: string; price: string; imageUrl: string };
 export type SiteContent = {
   announcement: string;
   squareBookingUrl: string;
@@ -25,9 +25,9 @@ export const defaultSiteContent: SiteContent = {
     "Confirmation — After booking, you will receive a confirmation email with the appointment time, location, and any additional requests. By booking and paying the deposit, you confirm that you have read and agreed to these policies.",
   ],
   services: [
-    { title: "Loc Care", description: "Intentional care for every stage of your loc journey—from maintenance to styling.", price: "" },
-    { title: "Natural Hair", description: "Healthy-hair rituals that honor your texture, protect your crown, and keep you feeling like you.", price: "" },
-    { title: "Signature Styles", description: "Polished, expressive looks created around your lifestyle, your energy, and your next moment.", price: "" },
+    { title: "Loc Care", category: "Locs", description: "Intentional care for every stage of your loc journey—from maintenance to styling.", price: "", imageUrl: "" },
+    { title: "Natural Hair", category: "Natural Hair", description: "Healthy-hair rituals that honor your texture, protect your crown, and keep you feeling like you.", price: "", imageUrl: "" },
+    { title: "Signature Styles", category: "Protective Styles", description: "Polished, expressive looks created around your lifestyle, your energy, and your next moment.", price: "", imageUrl: "" },
   ],
 };
 
