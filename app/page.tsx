@@ -103,7 +103,7 @@ export default async function Home() {
           <article className="edit-card edit-card-quote"><LeafSprig className="edit-leaf" /><small>THE PHILOSOPHY</small><blockquote>“Your crown carries a story. Let it be cared for with intention.”</blockquote><span>WHERE HAIR IS HERITAGE</span></article>
           <article className="edit-card edit-card-detail"><Image src="/images/shawnie-portrait.jpeg" alt="Rooted In Soul brand portrait detail" fill sizes="(max-width: 900px) 100vw, 24vw" /><div><small>02 / THE ENERGY</small><strong>Soft. Grounded. Confident.</strong></div></article>
         </div>
-        <p className="lookbook-note">The client lookbook is ready for Shawnie’s hair photos as soon as the shared album finishes uploading.</p>
+        <p className="lookbook-note">Now featuring real Rooted In Soul client work. New looks will be added straight from Shawnie’s stylist studio.</p>
       </section>
 
       <LiveGallery />
@@ -115,7 +115,7 @@ export default async function Home() {
       </section>
 
       <section className="book section" id="book">
-        <div className="book-copy"><p className="eyebrow dark"><span /> Your chair is waiting</p><h2>Ready to get<br /><em>rooted?</em></h2><p>Choose your service, find a time that works, and let the ritual begin. Square Appointments will handle confirmation and appointment details directly.</p><div className="book-assurances"><span>✓ Easy online booking</span><span>✓ Mobile confirmations</span><span>✓ Secure through Square</span></div><div className="booking-rules"><small>BEFORE YOU BOOK</small>{content.bookingRules.map((rule) => <p key={rule}>{rule}</p>)}</div></div>
+        <div className="book-copy"><p className="eyebrow dark"><span /> Your chair is waiting</p><h2>Ready to get<br /><em>rooted?</em></h2><p>Choose your service, find a time that works, and let the ritual begin. Square Appointments will handle confirmation and appointment details directly.</p><div className="book-assurances"><span>✓ Easy online booking</span><span>✓ Mobile confirmations</span><span>✓ Secure through Square</span></div><details className="booking-rules"><summary><small>BEFORE YOU BOOK</small><span>Read the full policies</span><b aria-hidden="true">+</b></summary><div>{content.bookingRules.map((rule) => <p key={rule}>{rule}</p>)}</div></details></div>
         <div className="booking-shell">
           <div className="booking-header"><div><small>ROOTED IN SOUL</small><strong>Book an appointment</strong></div><span>R</span></div>
           <div className="booking-body"><span className="square-tag">SQUARE APPOINTMENTS</span><h3>{bookingUrl ? "Online booking is open" : "Booking connection coming soon"}</h3><p>{bookingUrl ? "Use the secure booking page to choose your service and appointment time." : "This space is ready for Shawnie’s Square booking link. Once connected, clients will book here and receive confirmations on their phones."}</p>{bookingUrl ? <a className="button button-dark" href={bookingUrl} target="_blank" rel="noreferrer">Choose a service <span>↗</span></a> : <span className="button button-disabled" aria-disabled="true">Square booking goes here</span>}<small className="safe-note">Bookings and payments will be securely managed by Square.</small></div>

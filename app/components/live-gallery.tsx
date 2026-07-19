@@ -4,14 +4,19 @@ import { useEffect, useState } from "react";
 
 type Photo = { url: string; pathname: string };
 
+const launchPhotos: Photo[] = [
+  { url: "/images/client-boho-braids-side.jpeg", pathname: "launch/client-boho-braids-side.jpeg" },
+  { url: "/images/client-boho-braids-front.jpeg", pathname: "launch/client-boho-braids-front.jpeg" },
+];
+
 export default function LiveGallery() {
-  const [photos, setPhotos] = useState<Photo[]>([]);
+  const [photos, setPhotos] = useState<Photo[]>(launchPhotos);
 
   useEffect(() => {
     fetch("/api/gallery", { cache: "no-store" })
       .then((response) => response.json())
-      .then((data) => setPhotos(data.photos ?? []))
-      .catch(() => setPhotos([]));
+      .then((data) => setPhotos([...launchPhotos, ...(data.photos ?? [])]))
+      .catch(() => setPhotos(launchPhotos));
   }, []);
 
   if (!photos.length) return null;
